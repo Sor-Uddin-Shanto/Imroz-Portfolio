@@ -1,0 +1,287 @@
+/* Navbar */
+@media (min-width: 992px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .main-header {
+        width: 108%;
+        margin-left: -15px;
+    }
+
+    .header-top {
+        width: 105%;
+    }
+
+    .header-right {
+        position: absolute;
+        right: 30px;
+    }
+
+    .header-left-text {
+        margin-left: 15px;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+}
+
+/* LG Device: 992px */
+@media (min-width: 992px) and (max-width: 1199px) {
+        
+    .about {
+        padding: 80px 0 60px 0;
+    }
+
+    .portfolio {
+        padding: 40px 0;
+    }
+
+    .contact {
+        padding: 50px 0;
+    }
+
+    .footer-text p {
+        font-size: 13px;
+        padding: 0;
+    }
+}
+
+/* MD Device: 768px */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .main-header {
+        width: 108%;
+        margin-left: -15px;
+    }
+
+    .header-top {
+        width: 105%;
+    }
+
+    .header-right {
+        position: absolute;
+        right: 0;
+    }
+
+    .header-left-text {
+        margin-left: 15px;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    .social-button {
+        margin-right: 0;
+    }
+    
+    .navbar-toggler {
+        margin-top: 4px;
+    }
+    
+    .header-left {
+        width: 75%;
+    }
+
+    .common-text {
+        padding: 0px 100px;
+    }
+
+    .contact .col-md-10 {
+        margin: 0 auto;
+    }
+
+    .footer-text p {
+        text-align: center;
+    }
+
+    .footer-logo img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about {
+        padding: 80px 0 60px 0;
+    }
+
+    .about-content {
+        margin-top: 40px;
+    }
+
+    .portfolio {
+        padding: 40px 0;
+    }
+
+    .contact {
+        padding: 40px 0;
+    }
+
+    .contact .the-gradient-header {
+        text-align: center;
+    }
+
+    .contact h2 {
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .hire-me-img {
+        margin-top: 40px;
+    }
+}
+
+/* SM Small Device: 768px */
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    .main-header {
+        width: 108%;
+        margin-left: -15px;
+    }
+
+    .header-top {
+        width: 105%;
+    }
+
+    .header-right {
+        position: absolute;
+        right: 0;
+    }
+
+    .header-left-text {
+        margin-left: 15px;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    .social-button {
+        margin-right: 0;
+    }
+
+    .about {
+        padding: 50px 0 35px 0;
+    }
+
+    .about-content {
+        margin-top: 40px;
+    }
+
+    .common-text {
+        padding: 0px 50px;
+    }
+    
+    .content h3 {
+        font-size: 18px;
+    }
+
+    .portfolio {
+        padding: 35px 0;
+    }
+
+    .portfolio-card {
+        padding-top: 300px;
+    }
+
+    .news .portfolio-card {
+        padding-top: 600px;
+    }
+
+    .contact {
+        padding: 40px 0;
+    }
+
+    .hire-me-img {
+        margin-top: 40px;
+    }
+
+    .footer-text p {
+        text-align: center;
+    }
+}
+
+/* XSM All Small Device: 575px */
+@media (max-width: 575px) {
+    .social-button {
+        display: none;
+    }
+
+    .header-left {
+        padding: 0;
+    }
+
+    .header-left-text {
+        margin-left: 15px;
+    }
+
+    .logo {
+        margin-left: 25px;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .main-header {
+        width: 110%;
+        margin-left: -15px;
+    }
+
+    .header-top {
+        width: 105%;
+    }
+
+    .header-right {
+        position: absolute;
+        right: -20px;
+    }
+
+    .header-left ul {
+        padding: 15px 10px;
+        margin-left: 0;
+    }
+
+    .about {
+        padding: 50px 0 35px 0;
+    }
+
+    .about-content {
+        margin-top: 40px;
+    }
+
+    .common-text {
+        padding: 0px 30px;
+    }
+
+    .portfolio {
+        padding: 30px 0;
+    }
+
+    .contact {
+        padding: 25px 0;
+    }
+
+    .hire-me-img {
+        margin-top: 40px;
+    }
+
+    .footer-text p {
+        text-align: center;
+    }
+
+    .footer-text p {
+        line-height: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .buy-now-button {
+        display: none;
+    }
+}
